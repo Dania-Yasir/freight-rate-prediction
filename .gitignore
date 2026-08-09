@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local artifacts
+*.log
+
+# Assessment raw data (keep private/local unless you intentionally decide to publish it)
+data/*.csv
+
+# Trained model artifacts
+models/
+*.joblib
+*.pkl
+
+# Keep final required prediction file trackable
+!validation_predictions.csv
