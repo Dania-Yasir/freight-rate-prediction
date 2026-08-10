@@ -156,12 +156,9 @@ freight-rate-prediction/
 ├── README.md
 ├── requirements.txt
 ├── data/
-│   ├── train_test.csv
-│   ├── validation.csv
 │   └── processed/
 │       ├── train_test_clean.csv
 │       ├── validation_clean.csv
-│       └── cleaning_metadata.json
 ├── docs/
 │   └── EDA_CLEANING.md
 ├── notebooks/
